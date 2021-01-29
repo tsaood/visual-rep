@@ -1,0 +1,60 @@
+// This is a visual representation of how thoughts can infiltrate the mind with anxiety and sometimes uncontrolled enragement over the many thoughts that come from trying to focus at times.
+
+
+void setup() {
+  size(600, 600);
+  background(139, 216, 198);
+ // calm green used to represent calm environment
+ 
+}
+
+void draw() {
+  
+  //chaotic animation of ellipses moving around to represent inflitration
+  
+if (mouseX >150 && mouseX < 500 && mouseY >= 150 && mouseY <= 500)
+translate(random(-70, 10),random(-70, 10));
+
+ fill(255, 220, 0);
+ellipse(300, 390, 300, 300);
+
+  
+if (mouseX >150 && mouseX < 500 && mouseY >= 150 && mouseY <= 500)
+translate(random(-30, 10),random(-30, 10));
+
+ fill(255, 225, 0);
+ellipse(300, 390, 300, 300);
+
+
+if (mouseX >150 && mouseX < 500 && mouseY >= 150 && mouseY <= 500)
+translate(random(-30, 10),random(-30, 10));
+
+
+ fill(260, 80, 0);
+ellipse(300, 390, 300, 300);
+  
+  
+if (mouseX >150 && mouseX < 500 && mouseY >= 150 && mouseY <= 500)
+translate(random(-30, 100),random(-30, 100));
+
+  
+ fill(255, 0, 0);
+ellipse(300, 390, 300, 300);
+  
+  
+if (mouseX >150 && mouseX < 500 && mouseY >= 150 && mouseY <= 500)
+translate(random(-30, 100),random(-30, 100));
+ 
+ fill(255, 90, 0);
+ellipse(300, 390, 300, 300);
+  
+  
+if (mouseX >150 && mouseX < 500 && mouseY >= 150 && mouseY <= 500)
+translate(random(-30, 10),random(-30, 10));
+
+  // calm color showing outer state
+ fill(255, 182, 193);
+ellipse(300, 390, 300, 300);
+
+}
+
